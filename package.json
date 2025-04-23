@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@codingame/esbuild-import-meta-url-plugin": "^1.0.3",
-    "@codingame/monaco-vscode-python-default-extension": "^16.0.4",
-    "@typefox/monaco-editor-react": "^6.6.0",
-    "monaco-editor-wrapper": "^6.6.0",
+    "@codingame/monaco-vscode-python-default-extension": "~16.0.2",
+    "@codingame/monaco-vscode-rollup-vsix-plugin": "~16.0.2",
+    "@codingame/monaco-vscode-editor-api": "~16.0.2",
+    "@typefox/monaco-editor-react": "6.7.0-next.1",
+    "monaco-editor-wrapper": "6.7.0-next.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
