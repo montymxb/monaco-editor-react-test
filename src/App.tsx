@@ -3,7 +3,7 @@ import "@codingame/monaco-vscode-python-default-extension";
 import { MonacoEditorReactComp } from "@typefox/monaco-editor-react";
 import { LogLevel } from '@codingame/monaco-vscode-api';
 import type { WrapperConfig } from "monaco-editor-wrapper";
-import { configureDefaultWorkerFactory } from "monaco-editor-wrapper/workers/workerLoaders";
+//import { configureDefaultWorkerFactory } from "monaco-editor-wrapper/workers/workerLoaders";
 
 function App() {
   const createDefaultWrapperConfig = (): WrapperConfig => {
@@ -20,7 +20,7 @@ function App() {
             uri: "/workspace/hello.py",
           },
         },
-        monacoWorkerFactory: configureDefaultWorkerFactory,
+        //monacoWorkerFactory: configureDefaultWorkerFactory,
       },
     };
   };
